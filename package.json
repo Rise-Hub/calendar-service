@@ -1,7 +1,7 @@
 {
-  "name": "yirga",
+  "name": "calendar-service",
   "version": "0.0.1",
-  "description": "Source and discover the best coffee near you.",
+  "description": "Community calendar service.",
   "author": "Phil J. Laszkowicz <phil@fillip.pro> (https://github.com/siilime)",
   "contributors": [
     "Ed Newland-Pratt <epgnewlandpratt@gmail.com> (https://github.com/ednp)",
@@ -9,18 +9,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/siilime/yirga.git"
+    "url": "https://github.com/rise-hub/calendar-service.git"
   },
-  "license": "(LicenseRef-LICENSE)",
+  "license": "(MIT)",
   "config": {
-    "port": "4001"
+    "port": "4411"
   },
   "scripts": {
-    "start": "node ./bin/yirga.js &"
+    "start": "node ./bin/calendar-service.js &"
   },
   "main": "./app/index.js",
   "bin": {
-    "yirga": "./app/index.js"
+    "calendar-service": "./app/index.js"
   },
   "preferGlobal": false,
   "private": true,
